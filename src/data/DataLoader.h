@@ -17,9 +17,9 @@
 namespace lhws {
     class DataLoader {
     public:
-        std::string getSystemError();
+        static std::string getSystemError();
 
-        bool isOffsetValid(long long regionSize, int offset, int size);
+        static bool isOffsetValid(long long regionSize, int offset, int size);
 
         template<typename T>
         T fromBytes(const char *bytes) {

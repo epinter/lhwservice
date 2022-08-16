@@ -21,7 +21,7 @@ namespace lhws {
         HardwareTreeLoader &loader;
 
     public:
-        HardwareTreeParser(HardwareTreeLoader &aLoader) : loader(aLoader) {}
+        explicit HardwareTreeParser(HardwareTreeLoader &aLoader) : loader(aLoader) {}
 
         std::vector<Hardware> parseHardwareTree();
     };

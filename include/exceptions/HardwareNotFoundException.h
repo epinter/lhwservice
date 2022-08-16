@@ -14,6 +14,7 @@
 #include <exception>
 #include <string>
 #include <utility>
+#include "GenericException.h"
 
 class HardwareNotFoundException : public GenericException {
 public:
