@@ -11,12 +11,12 @@
 
 #pragma once
 
-#define HARDWARETREE_FILENAME "Global\\LibreHardwareService/json/all/data"
-#define HARDWARETREE_MUTEX "Global\\LibreHardwareService/json/all/data/MUTEX"
-#define SENSORS_FILENAME "Global\\LibreHardwareService/json/sensors/data"
-#define SENSORS_MUTEX "Global\\LibreHardwareService/json/sensors/data/MUTEX"
-#define HWSTATUS_FILENAME "Global\\LibreHardwareService/json/status/data"
-#define HWSTATUS_MUTEX "Global\\LibreHardwareService/json/status/data/MUTEX"
+static constexpr auto HARDWARETREE_FILENAME = "Global\\LibreHardwareService/json/all/data";
+static constexpr auto HARDWARETREE_MUTEX = "Global\\LibreHardwareService/json/all/data/MUTEX";
+static constexpr auto SENSORS_FILENAME = "Global\\LibreHardwareService/json/sensors/data";
+static constexpr auto SENSORS_MUTEX = "Global\\LibreHardwareService/json/sensors/data/MUTEX";
+static constexpr auto HWSTATUS_FILENAME = "Global\\LibreHardwareService/json/status/data";
+static constexpr auto HWSTATUS_MUTEX = "Global\\LibreHardwareService/json/status/data/MUTEX";
 #if DEBUGBUILD
 static constexpr bool ISDEBUG = true;
 #else
