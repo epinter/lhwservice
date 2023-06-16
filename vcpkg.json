@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "lhwservice",
+  "version-string": "0.2.0",
+  "description": "LibHardwareService",
+  "homepage": "https://github.com/epinter/lhwservice",
+  "license": "MPL-2.0",
+  "features": {
+    "library": {
+      "supports": "(windows & x64) | (windows & x86)",
+      "description": "LibHardwareService",
+      "dependencies": [
+        "boost-thread",
+        "boost-json",
+        "boost-format",
+        "boost-stacktrace",
+        "msgpack"
+      ]
+    }
+  },
+  "default-features": [
+    "library"
+  ]
+}

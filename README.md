@@ -10,12 +10,18 @@ This library is used to retrieve data from LibreHardwareService.
 
 ## Runtime Requirements
 
-[Visual C++ Redistributable 2022](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist).
+- [LibreHardwareService](https://github.com/epinter/LibreHardwareService)
+- [Visual C++ Redistributable 2022](https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist)
+- [CMake](https://cmake.org/)
+- [vcpkg](https://vcpkg.io/en/)
+- [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
+
 
 ## Building
 
-This library depends on Boost and MessagePack, cmake will search the dependencies using find_package. [vcpkg](https://vcpkg.io) is strongly recommended. The build is configured to be statically linked, so you have to use the triplet x64-windows-static-md for the dependencies. 
-Scripts for building can be found in cmake directory. Visual Studio 2022 and CMake are required.
+```
+./cmake/build.ps1
+```
 
 ## Usage
 ```
