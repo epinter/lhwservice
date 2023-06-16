@@ -22,7 +22,7 @@ namespace lhws {
     }
 
     void HardwareTreeLoader::load() {
-        std::string sensorsFilename = HARDWARETREE_FILENAME;
+        std::string sensorsFilename(HARDWARETREE_FILENAME);
         std::string mutexName(HARDWARETREE_MUTEX);
 
         // create mutex to avoid overwrite while we read

@@ -22,7 +22,7 @@ namespace lhws {
     }
 
     void HwStatusLoader::load() {
-        std::string sensorsFilename = HWSTATUS_FILENAME;
+        std::string sensorsFilename(HWSTATUS_FILENAME);
         std::string mutexName(HWSTATUS_MUTEX);
 
         // create mutex to avoid overwrite while we read

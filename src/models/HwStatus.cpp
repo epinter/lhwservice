@@ -9,8 +9,6 @@
  * file, You can obtain one at https://mozilla.org/MPL/2.0/.
  */
 
-#pragma once
-
 #include "models/HwStatus.h"
 #include "models/SmartAttribute.h"
 #include "models/NvmeSmart.h"

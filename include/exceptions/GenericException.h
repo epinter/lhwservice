@@ -16,8 +16,8 @@
 
 class GenericException : public std::exception {
 private:
-    std::string cause{};
     std::string error{};
+    std::string cause{};
     std::string fullMsg{};
 
 protected:

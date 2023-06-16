@@ -33,7 +33,7 @@ namespace lhws {
     }
 
     void SensorsDataLoader::loadMemMapSensors() {
-        std::string sensorsFilename = SENSORS_FILENAME;
+        std::string sensorsFilename(SENSORS_FILENAME);
         std::string mutexName(SENSORS_MUTEX);
 
         // create mutex to avoid overwrite while we read
