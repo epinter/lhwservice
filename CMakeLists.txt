@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(
         "lhwservice"
-        VERSION 0.2.0
+        VERSION 0.5.0
         LANGUAGES CXX)
 set(PROJECT_LICENSE "MPL-2.0")
 set(PROJECT_FRIENDLY_NAME ${PROJECT_NAME})
